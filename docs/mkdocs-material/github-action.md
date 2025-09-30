@@ -2,6 +2,7 @@
 
 搭配 GitHub Action 可以做到更改內容時，自動部署最新版到 Github Page
 
+只需要在專案中建立 `.github/workflows/deploy.yml` 檔，並填入以下內容即可
 ```yaml
 name: Deploy MkDocs
 
