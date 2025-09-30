@@ -1,0 +1,38 @@
+# 搭配 GitHub Action
+
+搭配 GitHub Action 可以做到更改內容時，自動部署最新版到 Github Page
+
+```yaml
+name: Deploy MkDocs
+
+on:
+  push:
+    branches:
+      - main   # 當 main 分支有 push 時觸發
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 取得專案程式碼
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. 安裝 Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      # 3. 安裝 MkDocs 與 Material 主題
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install mkdocs mkdocs-material
+
+      # 4. 部署到 GitHub Pages，--force 會覆蓋 gh-pages 分支內容，如果有自訂內容要小心
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
+
+```

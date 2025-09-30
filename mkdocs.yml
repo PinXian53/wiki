@@ -84,7 +84,8 @@ plugins:
 # 導覽
 nav:
   - 首頁: index.md
-  - MkDocs: mkdocs-material/index.md
-  - 快速開始:
-      - get-started/index.md
-      - 安裝: get-started/install.md
+  - MkDocs + Material:
+      - mkdocs-material/index.md
+      - Get Started: mkdocs-material/get-started.md
+      - Github Action: mkdocs-material/github-action.md
+      - Advanced: mkdocs-material/advanced.md
