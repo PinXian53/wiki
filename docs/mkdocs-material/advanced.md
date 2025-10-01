@@ -39,7 +39,7 @@ Tab 2 content
 ## Admonitions 警告
 > https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 
-### 寫法
+寫法
 <div id="centered-install-tabs" class="install-command-container" markdown="1">
 
 === "一般"
@@ -89,7 +89,7 @@ Tab 2 content
 
 </div>
 
-### 支援圖標
+支援圖標:
 - note
 - abstract
 - info
