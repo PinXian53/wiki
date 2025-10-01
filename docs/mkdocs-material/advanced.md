@@ -16,6 +16,26 @@ hide:
 ---
 ```
 
+## Tab
+```markdown
+<div id="centered-install-tabs" class="install-command-container" markdown="1">
+
+=== "Python"
+    Tab 1 content
+
+=== "Java"
+    Tab 2 content
+</div>
+```
+<div id="centered-install-tabs" class="install-command-container" markdown="1">
+
+=== "Python"
+Tab 1 content
+
+=== "Java"
+Tab 2 content
+</div>
+
 ## Admonitions 警告
 > https://squidfunk.github.io/mkdocs-material/reference/admonitions/
 
@@ -82,14 +102,3 @@ hide:
 - bug
 - example
 - quote
-
-
-## Tab
-<div id="centered-install-tabs" class="install-command-container" markdown="1">
-
-=== "Python"
-    Tab 1 content
-
-=== "Java"
-    Tab 2 content
-</div>
