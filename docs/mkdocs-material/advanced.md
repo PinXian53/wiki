@@ -37,7 +37,7 @@ Tab 2 content
 </div>
 
 ## Admonitions 警告
-> https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+> [https://squidfunk.github.io/mkdocs-material/reference/admonitions/](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)
 
 寫法
 <div id="centered-install-tabs" class="install-command-container" markdown="1">
