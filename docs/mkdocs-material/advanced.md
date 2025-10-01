@@ -6,7 +6,7 @@
 官方文件可以搜尋 icons emojis 清單
 ![icons-emojis.png](../assets/images/mkdocs-material/icons-emojis.png)
 
-例如：MD 中輸入 `:book:' 就會顯示 :book: 圖示
+例如：MD 中輸入 `:book:` 就會顯示 :book: 圖示
 
 ## YAML Front Matter
 隱藏這頁的目錄
